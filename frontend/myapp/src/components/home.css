@@ -1,0 +1,89 @@
+
+.home-container {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.carousel {
+  margin-bottom: 30px;
+}
+
+.carousel-inner img {
+  max-height: 640px;
+  object-fit: cover;
+  width: 100%;
+}
+
+
+.row-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.row-2 .product-card {
+  flex: 1;
+  margin: 0 10px;
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.row-2 .product-card img {
+  max-width: 90%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+
+.row-3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.row-3 .product-card {
+  flex: 1 0 30%; 
+  margin: 10px;
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.row-3 .product-card img {
+  max-width: 80%;
+  margin-bottom: 10px;
+}
+
+
+.product-card h3 {
+  color: #f39c12;
+}
+
+.product-card button {
+  background-color: #f39c12;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.product-card button:hover {
+  background-color: #d38b4d;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+    background-color: transparent; 
+}

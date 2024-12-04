@@ -1,0 +1,79 @@
+/* Centering the form */
+.form-container {
+    background-color: #1b1b1b;
+    color: #f8f9fa;
+    padding: 40px;
+    max-width: 400px;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #4caf50;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container label {
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: bold;
+    color: #f8f9fa;
+  }
+  
+  .form-container input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #282828;
+    color: #fff;
+  }
+  
+  .form-container input::placeholder {
+    color: #bbb;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #388e3c;
+  }
+  
+  p {
+    color: #aaa;
+    margin-top: 10px;
+  }
+  
+  p a {
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: #f44336;
+    margin-top: -15px;
+    margin-bottom: 15px;
+  }
+  

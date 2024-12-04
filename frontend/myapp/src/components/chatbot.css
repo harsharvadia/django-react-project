@@ -1,0 +1,98 @@
+/* Main.css */
+.chat-button {
+    position: fixed; 
+    bottom: 20px;    
+    right: 20px;     
+    padding: 15px 20px;
+    background-color: #007bff; 
+    color: white;    
+    border: none;    
+    border-radius: 50%; 
+    cursor: pointer;  
+    font-size: 20px;  
+    z-index: 1000;    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.chat-modal {
+    position: fixed; 
+    top: 0;          
+    left: 0;         
+    width: 100vw;    
+    height: 100vh;   
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;   
+    align-items: center; 
+    justify-content: center; 
+    z-index: 1000;   
+}
+
+.chat-modal-content {
+    background-color: #fefefe; 
+    padding: 20px;          
+    border-radius: 10px;    
+    width: 350px;           
+    max-width: 90%; /* Make modal responsive */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+    overflow-y: auto; 
+    max-height: 90vh; 
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-title {
+    font-size: 24px; 
+    color: #333; 
+    margin: 0; 
+}
+
+.close {
+    color: #aaa; 
+    font-size: 28px; 
+    cursor: pointer; 
+}
+
+.close:hover,
+.close:focus {
+    color: black; 
+}
+
+.chat-messages {
+    height: 300px; 
+    overflow-y: auto; 
+    margin: 10px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 10px; 
+    background-color: #fafafa; 
+}
+
+.chat-input {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.chat-input input {
+    flex: 1; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    margin-right: 10px; 
+}
+
+.chat-input button {
+    padding: 10px 15px; 
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.chat-input button:hover {
+    background-color: #0056b3; 
+}
